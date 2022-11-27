@@ -4,9 +4,13 @@
     margin: 0;
 }
 
+/* == BODY == */
+
 body {
     background-color: #d9dcd6;
 }
+
+/* == MAIN == */
 
 header {
     padding: 20px;
@@ -15,15 +19,14 @@ header {
     color: #ffffff;
 }
 
-/* consolidated 2 values together */
 header h1, .seo {
     display: inline-block;
-    font-size: 48px;
+    font-size: 48px;  
 }
 
-/* header h1 .seo {
+ header h1 .seo {
     color: #d9dcd6;
-} */
+} 
 
 header div {
     padding-top: 15px;
@@ -51,6 +54,8 @@ p {
     font-size: 16px;
 }
 
+/* == SECTION == */
+
 .hero {
     height: 800px;
     width: 100%;
@@ -76,6 +81,8 @@ p {
     margin-left: 20px;
 }
 
+/* == ASIDE == */
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,7 +93,8 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/* consolidated 3 values together */
+
+/* consolidated 3 selectors  */
 
 .benefit-lead, .benefit-brand, .benefit-cost{
     margin-bottom: 32px;
@@ -103,7 +111,7 @@ p {
     color: #ffffff;
 } */
 
-/* consolidated 3 values together */
+/* consolidated 3 selectors  */
 
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
@@ -120,7 +128,7 @@ p {
     text-align: center; 
 } */
 
-/* consolidated 3 values together */
+/* consolidated 3 selectors */
 
 .benefit-lead img, .benefit-brand img, .benefit-cost img  {
     display: block;
@@ -140,7 +148,7 @@ p {
     max-width: 150px; 
 } */
 
-/* consolidated 3 values together */
+/* consolidated 3 selectors */
 
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
@@ -169,7 +177,7 @@ p {
     color: #ffffff;
 } */
 
-/* consolidated 3 values together */
+/* consolidated 3 selectors */
 
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img  {
     max-height: 200px;
@@ -183,7 +191,7 @@ p {
     max-height: 200px;
 } */
 
-/* consolidated 3 values together */
+/* consolidated 3 selectors */
 
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
@@ -200,6 +208,8 @@ p {
     font-size: 36px;
 } */
 
+/* == FOOTER == */
+
 footer {
     padding: 30px;
     clear: both;
@@ -207,7 +217,8 @@ footer {
     text-align: center;
 }
 
-/* added value h4  */
+/* consolidated 1 selector  */
+
 footer h2 h4{
     font-size: 20px;
 }
